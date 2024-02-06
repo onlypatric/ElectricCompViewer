@@ -1,0 +1,431 @@
+{
+    "A": {
+        "text": "complessi, unita'"
+    },
+    "B": {
+        "text": "trasduttori di una grandezza non elettrica in una elettrica o viceversa"
+    },
+    "C": {
+        "text": "condensatori"
+    },
+    "D": {
+        "text": "operazioni binarie, dispositivi di temporizzazione, dispositivi di memorizzazione"
+    },
+    "E": {
+        "text": "materiali diversi"
+    },
+    "F": {
+        "text": "dispositivi di protezione"
+    },
+    "G": {
+        "text": "generatori, alimentatori"
+    },
+    "H": {
+        "text": "dispositivi di segnalazione"
+    },
+    "K": {
+        "text": "bobine per rele' e contattori, blocchi di potenza per contattori"
+    },
+    "L": {
+        "text": "induttanze"
+    },
+    "M": {
+        "text": "motori"
+    },
+    "N": {
+        "text": "circuiti integrati analogici"
+    },
+    "P": {
+        "text": "strumenti di misura, dispositivi di prova"
+    },
+    "Q": {
+        "text": "apparecchi di manovra per circuiti di potenza"
+    },
+    "R": {
+        "text": "resistori"
+    },
+    "S": {
+        "text": "apparecchi di comando e di controllo"
+    },
+    "T": {
+        "text": "trasformatori"
+    },
+    "U": {
+        "text": "modulatori convertitori"
+    },
+    "V": {
+        "text": "tubi elettronici semiconduttori"
+    },
+    "W": {
+        "text": "vie di trasmissione guide d'onda, antenne"
+    },
+    "X": {
+        "text": "morsetti, prese, spine"
+    },
+    "Y": {
+        "text": "apparecchi meccanici azionati meccanicamente"
+    },
+    "Z": {
+        "text": "trasformatori adattatori di impedenza, equalizzatori, limitatori di banda"
+    },
+    "AD": {
+        "text": "Amplificatori a transistor"
+    },
+    "AJ": {
+        "text": "Amplificatori a circuiti integrati"
+    },
+    "AM": {
+        "text": "Amplificatori magnetici"
+    },
+    "AP": {
+        "text": "Circuiti stampati (Schede)"
+    },
+    "AR": {
+        "text": "Racks"
+    },
+    "AS": {
+        "text": "Avviatori motori"
+    },
+    "BB": {
+        "text": "Apparecchi telefonici"
+    },
+    "BC": {
+        "text": "Interruttori crepuscolari"
+    },
+    "BF": {
+        "text": "Cellule fotoelettriche"
+    },
+    "BI": {
+        "text": "Misuratori d'induttanza"
+    },
+    "BL": {
+        "text": "Trasduttori di livello"
+    },
+    "BM": {
+        "text": "Microfoni"
+    },
+    "BP": {
+        "text": "Trasduttori di pressione"
+    },
+    "BQ": {
+        "text": "Trasduttori di posizione"
+    },
+    "BR": {
+        "text": "Trasduttori di rotazione (Tachimetriche)"
+    },
+    "BS": {
+        "text": "Altoparlanti"
+    },
+    "BT": {
+        "text": "Trasduttori di temperatura"
+    },
+    "BU": {
+        "text": "Sensori di ultrasuoni"
+    },
+    "BV": {
+        "text": "Trasduttori di velocita'"
+    },
+    "BW": {
+        "text": "Trasduttori di potenza indiretta"
+    },
+    "BY": {
+        "text": "Trasduttori per cosfimetri"
+    },
+    "EC": {
+        "text": "Condizionatori"
+    },
+    "EE": {
+        "text": "Elettrodomestici in generale"
+    },
+    "EH": {
+        "text": "Dispositivi di riscaldamento (Scaldiglie)"
+    },
+    "EL": {
+        "text": "Lampade di illuminazione (apparecchi di illuminazione)"
+    },
+    "EV": {
+        "text": "Ventilatori"
+    },
+    "FA": {
+        "text": "Protezioni magnetiche"
+    },
+    "FF": {
+        "text": "Rele' di frequenza"
+    },
+    "FR": {
+        "text": "Protezioni termiche"
+    },
+    "FS": {
+        "text": "Protezioni sovratensioni"
+    },
+    "FU": {
+        "text": "Fusibili"
+    },
+    "FV": {
+        "text": "Rele' tensione"
+    },
+    "GB": {
+        "text": "Batteria di accumulatori"
+    },
+    "GC": {
+        "text": "Commutatrici"
+    },
+    "GD": {
+        "text": "Generatori corrente continua"
+    },
+    "GF": {
+        "text": "Convertitori di frequenza"
+    },
+    "GS": {
+        "text": "Generatori corrente alternata"
+    },
+    "HA": {
+        "text": "Segnalazioni acustiche"
+    },
+    "HC": {
+        "text": "Led"
+    },
+    "HL": {
+        "text": "Segnalazioni luminose"
+    },
+    "HS": {
+        "text": "Sistemi di allarme"
+    },
+    "KA": {
+        "text": "Rele' ausiliari"
+    },
+    "KD": {
+        "text": "Rele' differenziali"
+    },
+    "KF": {
+        "text": "Rele' d'intensita'"
+    },
+    "KL": {
+        "text": "Rele' bistabili - monostabili"
+    },
+    "KM": {
+        "text": "Contattori, rele'"
+    },
+    "KP": {
+        "text": "Rele' polarizzati"
+    },
+    "KR": {
+        "text": "Rele' reed"
+    },
+    "KS": {
+        "text": "Rele' - rele' passo passo"
+    },
+    "KT": {
+        "text": "Rele' temporizzatori"
+    },
+    "KV": {
+        "text": "Rele' statici"
+    },
+    "MD": {
+        "text": "Motori in corrente continua"
+    },
+    "MS": {
+        "text": "Motori in corrente alternata"
+    },
+    "PA": {
+        "text": "Amperometri"
+    },
+    "PC": {
+        "text": "Contaimpulsi"
+    },
+    "PF": {
+        "text": "Frequenzimetri"
+    },
+    "PG": {
+        "text": "Termometri"
+    },
+    "PJ": {
+        "text": "Contatori di energia (Wattmetri)"
+    },
+    "PM": {
+        "text": "Strumento multifunzione"
+    },
+    "PN": {
+        "text": "Tachimetri"
+    },
+    "PO": {
+        "text": "Cosfimetri - frequenzimetri"
+    },
+    "PS": {
+        "text": "Resistori"
+    },
+    "PT": {
+        "text": "Contaore, orologi"
+    },
+    "PV": {
+        "text": "Voltmetri"
+    },
+    "PY": {
+        "text": "Cosfimetro"
+    },
+    "QD": {
+        "text": "Int. differenziali - blocchi differenziali"
+    },
+    "QF": {
+        "text": "Interruttori automatici"
+    },
+    "QG": {
+        "text": "Rele' preferenziali"
+    },
+    "QM": {
+        "text": "Interruttori di potenza (protezione motore)"
+    },
+    "QO": {
+        "text": "Interruttori orari"
+    },
+    "QR": {
+        "text": "Interruttori crepuscolari"
+    },
+    "QS": {
+        "text": "Sezionatori"
+    },
+    "QU": {
+        "text": "Sezionatori con fusibili"
+    },
+    "RD": {
+        "text": "Dimmer"
+    },
+    "RM": {
+        "text": "Resistori di avviamento"
+    },
+    "RP": {
+        "text": "Potenziometri"
+    },
+    "RR": {
+        "text": "Resistori"
+    },
+    "RS": {
+        "text": "Shunt (derivatori)"
+    },
+    "RV": {
+        "text": "Reostati"
+    },
+    "SA": {
+        "text": "Selettori"
+    },
+    "SB": {
+        "text": "Pulsanti"
+    },
+    "SC": {
+        "text": "Commutatori"
+    },
+    "SE": {
+        "text": "Finecorsa statici"
+    },
+    "SF": {
+        "text": "Finecorsa"
+    },
+    "SH": {
+        "text": "Pulsanti luminosi"
+    },
+    "SL": {
+        "text": "Livellostati"
+    },
+    "SP": {
+        "text": "Predispositori"
+    },
+    "SQ": {
+        "text": "Finecorsa di prossimita'"
+    },
+    "SR": {
+        "text": "Finecorsa rotativi"
+    },
+    "SS": {
+        "text": "Interruttori e deviatori per uso civile"
+    },
+    "SV": {
+        "text": "Commutatori voltmetrici"
+    },
+    "TA": {
+        "text": "Trasformatori amperometrici"
+    },
+    "TC": {
+        "text": "Trasformatori circuiti di comando"
+    },
+    "TM": {
+        "text": "Trasformatori di potenza"
+    },
+    "TR": {
+        "text": "Trasformatori - trasformatori di sicurezza"
+    },
+    "TS": {
+        "text": "Stabilizzatori magnetici"
+    },
+    "TV": {
+        "text": "Trasformatori voltmetrici"
+    },
+    "UA": {
+        "text": "Convertitori di Ccrrente"
+    },
+    "UD": {
+        "text": "Convertitori digitali/analogici"
+    },
+    "UF": {
+        "text": "Convertitori di frequenza"
+    },
+    "UJ": {
+        "text": "Convertitori di potenza"
+    },
+    "UN": {
+        "text": "Convetitori analogici/digitali"
+    },
+    "UV": {
+        "text": "Convertitori di tensione"
+    },
+    "VC": {
+        "text": "Raddrizzatori circuiti di comando"
+    },
+    "VD": {
+        "text": "Diodi"
+    },
+    "VN": {
+        "text": "Transistori"
+    },
+    "VT": {
+        "text": "Tiristori"
+    },
+    "VZ": {
+        "text": "Zener"
+    },
+    "WA": {
+        "text": "Antenne"
+    },
+    "WB": {
+        "text": "Sbarre distributrici"
+    },
+    "WC": {
+        "text": "Cavi"
+    },
+    "XC": {
+        "text": "Connettori"
+    },
+    "XJ": {
+        "text": "Spinotti di prova"
+    },
+    "XP": {
+        "text": "Spine"
+    },
+    "XS": {
+        "text": "Prese"
+    },
+    "XT": {
+        "text": "Morsetti"
+    },
+    "YA": {
+        "text": "Apparecchi elettromagnetici"
+    },
+    "YB": {
+        "text": "Freni elettromagnetici"
+    },
+    "YC": {
+        "text": "Frizioni elettromagnetiche"
+    },
+    "YV": {
+        "text": "Elettrovalvole"
+    }
+}
