@@ -6,11 +6,13 @@ from PyQt6.QtGui import QPixmap, QImageReader
 from PyQt6.QtCore import Qt,QSettings
 
 from openpyxl import Workbook
+from openpyxl.worksheet.worksheet import Worksheet
 
 from json import dump, load
 from openpyxl import load_workbook
 
 class ElectricSymbolViewer(QWidget):
+    FILE_SELECTORS = "XML Excel 2016 (*.xlsx);;Comma-separated values (*.csv);;JSON web format (*.json)"
     def __init__(self, symbols,parent:QMainWindow):
         super().__init__()
 
@@ -112,7 +114,7 @@ class ElectricSymbolViewer(QWidget):
     def export_symbols(self):
         # ask the user for a path to save the file (json or CSV)
         path, _ = QFileDialog.getSaveFileName(
-            self, "Save File", "", "CSV (*.csv);;JSON (*.json);;Excel 2016 (*.xlsx)")
+            self, "Save File", "", self.FILE_SELECTORS)
         if path:
             # save the symbols to the file
             with open(path, "w", newline='') as file:
@@ -125,7 +127,7 @@ class ElectricSymbolViewer(QWidget):
                         csv_writer.writerow([symbol, data['text']])
                 elif path.endswith(".xlsx"):
                     workbook = Workbook()
-                    worksheet = workbook.active
+                    worksheet: Worksheet = workbook.active # type: ignore
                     worksheet.append(['Simbolo', 'Valore'])
                     for symbol, data in self.symbols.items():
                         worksheet.append([symbol, data['text']])
@@ -134,7 +136,7 @@ class ElectricSymbolViewer(QWidget):
     def load_symbols(self):
         # ask the user for a path to load the file, either CSV or json
         path, _ = QFileDialog.getOpenFileName(
-            self, "Load File", "", "CSV (*.csv);;JSON (*.json);;Excel 2016 (*.xlsx)")
+            self, "Load File", "", self.FILE_SELECTORS)
         if path:
             # load the symbols from the file
             with open(path, "r") as file:
@@ -152,7 +154,7 @@ class ElectricSymbolViewer(QWidget):
                         self.symbols[symbol] = {"text": description}
                 elif path.endswith(".xlsx"):
                     workbook = load_workbook(path)
-                    worksheet = workbook.active
+                    worksheet: Worksheet = workbook.active #type: ignore
                     self.symbols = {}
                     for row in worksheet.iter_rows(min_row=2, values_only=True):
                         symbol, description = row
