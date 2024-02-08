@@ -233,17 +233,18 @@ class MainWindow(QMainWindow):
         self.menu_bar = QMenuBar(self)
         self.file_menu = QMenu("File", self)
         self.new_window = self.file_menu.addAction("New Window")
-        self.new_window.triggered.connect(self.new_window_action)
-        self.load_action = self.file_menu.addAction(
-            "Load")
-        self.load_action.setShortcut(
-            "Ctrl+L")
-        self.load_action.triggered.connect(self.electric_symbol_viewer.load_symbols)
         self.save_action = self.file_menu.addAction(
             "Save")
-        self.save_action.setShortcut("Ctrl+S")
-        self.save_action.triggered.connect(
-            self.electric_symbol_viewer.export_symbols)
+        self.load_action = self.file_menu.addAction(
+            "Load")
+        if self.new_window and self.load_action and self.save_action:
+            self.new_window.triggered.connect(self.new_window_action)
+            self.load_action.setShortcut(
+                "Ctrl+L")
+            self.load_action.triggered.connect(self.electric_symbol_viewer.load_symbols)
+            self.save_action.setShortcut("Ctrl+S")
+            self.save_action.triggered.connect(
+                self.electric_symbol_viewer.export_symbols)
         self.menu_bar.addMenu(self.file_menu)
         self.setMenuBar(self.menu_bar)
 
